@@ -2,7 +2,7 @@
 
 Sistema web para visualização e análise de dados de failure reasons por e-commerce, com suporte a upload de arquivos Excel/CSV e filtros avançados.
 
-## ✨ Principais Melhorias (v2.0)
+## ✨ Principais Melhorias 
 
 - ✅ **Dados automáticos**: Data e aeroporto agora vêm da planilha (não precisam ser inseridos manualmente)
 - ✅ **Cálculo inteligente**: Quantidade e percentual calculados automaticamente por failure reason e e-commerce
@@ -20,7 +20,6 @@ Sistema web para visualização e análise de dados de failure reasons por e-com
 | **Frontend** | JavaScript Vanilla + TailwindCSS (CDN) |
 | **Gráficos** | Chart.js 4.4.0 |
 | **Processamento** | Pandas + OpenPyXL |
-| **Porta** | 5033 |
 
 ## 📁 Estrutura do Projeto
 
@@ -184,9 +183,6 @@ Faz upload de novo arquivo.
 
 ## 📊 Dados de Teste
 
-O projeto já vem com dados de teste (67.299 registros) para você testar imediatamente:
-
-- **Período**: 30/10/2025 a 02/02/2026
 - **Aeroportos**: VCP (Viracopos), GRU (Guarulhos)
 - **E-commerce**: MELI, AE, TEMU, SHOPEE, AMAZON
 - **Failure Reasons**: 38 tipos diferentes
@@ -199,14 +195,6 @@ O projeto já vem com dados de teste (67.299 registros) para você testar imedia
 4. **Clique em "Aplicar Filtros"**: Os dados serão atualizados
 5. **Analise os gráficos**: Veja a distribuição dos dados
 6. **Faça upload**: Vá para a aba "Upload de Dados" e envie um novo arquivo
-
-## 📝 Notas Importantes
-
-- A data e o aeroporto são **automaticamente extraídos** do arquivo
-- O sistema **calcula automaticamente** quantidade e percentual
-- Os nomes de e-commerce são **mapeados para abreviações** no frontend
-- O banco de dados **SQLite** armazena todos os dados
-- Os filtros são **dinâmicos** e atualizados conforme você seleciona
 
 ## 🐛 Troubleshooting
 
@@ -226,14 +214,6 @@ kill -9 <PID>
 - Verifique se o arquivo tem o formato correto
 - Certifique-se de que todas as colunas obrigatórias estão presentes
 - Tente com o arquivo de teste fornecido
-
-## 📞 Suporte
-
-Para dúvidas ou problemas, verifique:
-1. Se todas as dependências estão instaladas
-2. Se o servidor está rodando na porta 5033
-3. Se o arquivo de upload tem o formato correto
-4. Os logs do servidor para mensagens de erro
 
 ## 📄 Licença
 
